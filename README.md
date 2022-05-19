@@ -9,3 +9,5 @@ Hi! My name is Edward Calzia and I am a student in London interested in Chemistr
     <img src="https://skillicons.dev/icons?i=css,html,py,latex,figma,tailwind,flutter" />
   </a>
 </p>
+
+## My Projects
