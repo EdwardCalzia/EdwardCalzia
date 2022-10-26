@@ -1,1 +1,628 @@
+<!DOCTYPE html>
 
+<html class="scroll-smooth bg-[#212529]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edward Calzia</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://cdn.tailwindcss.com?plugins=typography,forms"></script>
+        <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="icon" type="image/png" href="Images\avatar.png">
+  </head>
+  <body class="pt-20">
+    <script src="aos.js"></script>
+    <script>AOS.init();</script>
+
+    <nav id="nav-bar" class="nav flex bg-[#212529] absolute flex-wrap items-center justify-between md:rounded-none md:shadow-none shadow-sm w-full top-0 px-8">
+        <div class="h-24 text-lg font-semibold flex flex-no-shrink tgr items-center mr-6 py-3">
+          <a class="text-[#FFB742]" href="index.html">Edward Calzia</a>
+        </div>
+
+        <input class="menu-btn hidden" type="checkbox" id="menu-btn">
+        <label class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none" for="menu-btn">
+          <span class="navicon bg-gray-400 flex items-center relative"></span>
+        </label>
+        <ul class="menu border-none flex justify-end list-reset m-0 w-full md:w-auto">
+          <li class="border-none">
+            <a href="index.html" class="block font-medium md:inline-block px-4 py-3 text-md no-underline text-white hover:text-[#FFB742]">Home</a>
+          </li>
+
+          <li class="border-none">
+            <a href="#about" class="block font-medium md:inline-block px-4 py-3 text-md no-underline text-white hover:text-[#FFB742]">About</a>
+          </li>
+
+          <li class="border-none">
+            <a href="#skills" class="block font-medium md:inline-block px-4 py-3 text-md no-underline text-white hover:text-[#FFB742]">Skills</a>
+          </li>
+
+          <li class="border-none">
+            <a href="#blog" class="block font-medium md:inline-block px-4 py-3 text-md no-underline text-white hover:text-[#FFB742]">Blog</a>
+          </li>
+
+          <li class="border-none">
+            <a href="#projects" class="block font-medium md:inline-block px-4 py-3 text-md no-underline text-white hover:text-[#FFB742]">Projects</a>
+          </li>
+        </ul>
+
+        <ul class="menu border-none flex justify-end list-reset m-0 w-full md:w-auto">
+          <li class="border-none">
+            <a href="mailto: edcalzia@yahoo.com" class="block md:inline-block px-4 py-2 bg-[#FFB742] hover:bg-[#E28C00] transition duration-100 ease-in my-1 text-center md:text-justify rounded-[50px] text-md no-underline text-black font-medium">Let's Talk</a>
+          </li>
+        </ul>
+    </nav>
+
+    <section id="beginning" data-aos-once="true" data-aos="fade-up" class="md:pt-12 text-gray-600 px-auto mx-auto body-font">
+      <div class="max-w-screen-lg mx-auto px-5 py-12 items-center">
+        <div class="items-center text-center mb-16 lg:mb-0">
+          <h1 class="text-3xl sm:text-5xl lg:text-3xl text-white mb-4 font-semibold tracking-tight inline">Hi, I Am </h1>
+          <span class="text-3xl sm:text-5xl lg:text-3xl text-[#FFB742] mb-4 font-semibold underline underline-offset-[6px] tracking-tight inline">Edward Calzia</span>
+          <h1 class="text-3xl sm:text-5xl lg:text-3xl text-white mb-4 font-semibold tracking-tight inline">👋</h1>
+
+          <h1 class="pt-10 text-4xl sm:text-5xl lg:text-5xl text-white mb-4 font-semibold tracking-tight ">Aspiring Analytical Chemist & Researcher</h1>
+          <h1 class="pt-6 text-xl sm:text-4xl lg:text-2xl text-white mb-4 tracking-tight inline">Solving problems using software</h1>
+        </div>
+      </div>
+      <div class="-pt-8 mx-auto px-2">
+        <img data-aos="fade-up" class="mx-auto w-35 md-50 lg-70 pb-10" src="Images\avatar.png"></img>
+      </div>
+    </section>
+
+    <section id="about" class="py-8">
+      <div class="container mx-auto">
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+
+        <div class="flex flex-wrap">
+          <div class="w-5/6 sm:w-1/2 p-6">
+            <ul class="menu border-none list-reset m-0 w-full md:w-auto mx-auto">
+              <li class="border-none">
+                <a class="block md:inline-block px-4 py-2 bg-[#414141] transition duration-100 ease-in my-1 text-center md:text-justify rounded-[50px] text-md no-underline text-[#FFB742] font-medium">Who I Am</a>
+              </li>
+            </ul>
+
+            <h1 class="pt-10 text-5xl text-white font-semibold">About Me</h1>
+            <p class="text-1xl text-white leading-none mb-6 pt-7 leading-normal">
+              Hi! My name is Edward Calzia and I am a student in London interested in Chemistry, Programming and Data Science. I love hackathons, and I enjoy creating solutions to problems using software as quickly and efficiently as possible. I am always looking to improve my skills and learn new things! I would love to hear from you so if you have any questions or comments please get in touch via my email or socials.
+            </p>
+
+            <a href="https://twitter.com/EdwardCalzia" class="hover:underline text-gray-400"><button class="inline-flex items-center justify-center w-8 h-8 mr-2 text-pink-100 transition-colors duration-150 bg-[#E28C00] rounded-full focus:shadow-outline hover:bg-[#C37900]">
+              <svg class="h-5 w-5 text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" /></svg>
+              </button>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/edward-calzia/" class="hover:underline text-gray-400">
+            <button class="inline-flex items-center justify-center w-8 h-8 mr-2 text-pink-100 transition-colors duration-150 bg-[#E28C00] rounded-full focus:shadow-outline hover:bg-[#C37900]">
+              <svg class="h-5 w-5 text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />  <rect x="2" y="9" width="4" height="12" />  <circle cx="4" cy="4" r="2" /></svg>
+              </button>
+            </a>
+
+            <a href="https://github.com/EdwardCalzia" class="hover:underline text-gray-400">
+            <button class="inline-flex items-center justify-center w-8 h-8 mr-2 text-pink-100 transition-colors duration-150 bg-[#E28C00] rounded-full focus:shadow-outline hover:bg-[#C37900]">
+              <svg class="h-5 w-5 text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg>
+              </button>
+            </a>
+            
+            <a href="mailto: edcalzia@yahoo.com" class="hover:underline text-gray-400">
+            <button class="inline-flex items-center justify-center w-8 h-8 mr-2 text-pink-100 transition-colors duration-150 bg-[#E28C00] rounded-full focus:shadow-outline hover:bg-[#C37900]">
+              <svg class="h-5 w-5 text-white"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg></button>
+            </a>
+          </div>
+
+          <div class="w-full sm:w-1/2 p-6">
+            <div class="flex flex-col items-center">
+              <img class="w-full" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt=""></img>
+            </div>
+          </div>
+      </section>
+
+      <section id="skills" class="py-8">
+        <div class="container mx-auto">
+          <h1 class="pt-10 text-5xl text-white font-semibold flex flex-wrap p-6">Skills</h1>
+          <div class="md:grid md:grid-cols-2">
+            <div class="relative pt-1 px-6 py-6">
+              <div class="flex mb-2 items-center justify-between">
+                <div>
+                  <span class="text-xs font-semibold inline-block py-1 px-2 rounded-full bg-[#FFB742] text-black">
+                    Data Science
+                  </span>
+                </div>
+                <div class="text-right">
+                  <span class="text-xs font-semibold inline-block text-amber-600">
+                    80%
+                  </span>
+                </div>
+              </div>
+              <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-amber-200">
+                <div style="width: 80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center rounded-full bg-amber-500"></div>
+              </div>
+            </div>
+            <div class="relative pt-1 px-6 py-6">
+              <div class="flex mb-2 items-center justify-between">
+                <div>
+                  <span class="text-xs font-semibold inline-block py-1 px-2 rounded-full bg-[#FFB742] text-black">
+                    Analytical Chemistry
+                  </span>
+                </div>
+                <div class="text-right">
+                  <span class="text-xs font-semibold inline-block text-amber-600">
+                    50%
+                  </span>
+                </div>
+              </div>
+              <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-amber-200">
+                <div style="width: 50%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center rounded-full bg-amber-500"></div>
+              </div>
+            </div>
+            <div class="relative pt-1 px-6 py-6">
+              <div class="flex mb-2 items-center justify-between">
+                <div>
+                  <span class="text-xs font-semibold inline-block py-1 px-2 rounded-full bg-[#FFB742] text-black">
+                    LaTex
+                  </span>
+                </div>
+                <div class="text-right">
+                  <span class="text-xs font-semibold inline-block text-amber-600">
+                    90%
+                  </span>
+                </div>
+              </div>
+              <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-amber-200">
+                <div style="width: 90%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center rounded-full bg-amber-500"></div>
+              </div>
+            </div>
+            <div class="relative pt-1 px-6 py-6">
+              <div class="flex mb-2 items-center justify-between">
+                <div>
+                  <span class="text-xs font-semibold inline-block py-1 px-2 rounded-full bg-[#FFB742] text-black">
+                    Computational Fluid Dynamics (CFD)
+                  </span>
+                </div>
+                <div class="text-right">
+                  <span class="text-xs font-semibold inline-block text-amber-600">
+                    60%
+                  </span>
+                </div>
+              </div>
+              <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-amber-200">
+                <div style="width: 60%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center rounded-full bg-amber-500"></div>
+              </div>
+            </div>
+            <div class="relative pt-1 px-6 py-6">
+              <div class="flex mb-2 items-center justify-between">
+                <div>
+                  <span class="text-xs font-semibold inline-block py-1 px-2 rounded-full bg-[#FFB742] text-black">
+                    Python
+                  </span>
+                </div>
+                <div class="text-right">
+                  <span class="text-xs font-semibold inline-block text-amber-600">
+                    70%
+                  </span>
+                </div>
+              </div>
+              <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-amber-200">
+                <div style="width: 70%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center rounded-full bg-amber-500"></div>
+              </div>
+            </div>
+            <div class="relative pt-1 px-6 py-6">
+              <div class="flex mb-2 items-center justify-between">
+                <div>
+                  <span class="text-xs font-semibold inline-block py-1 px-2 rounded-full bg-[#FFB742] text-black">
+                    Web & App development
+                  </span>
+                </div>
+                <div class="text-right">
+                  <span class="text-xs font-semibold inline-block text-amber-600">
+                    65%
+                  </span>
+                </div>
+              </div>
+              <div class="overflow-hidden h-2 mb-4 text-xs flex rounded bg-amber-200">
+                <div style="width: 65%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center rounded-full bg-amber-500"></div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      
+      <section id="blog" class="text-gray-600 body-font overflow-hidden">
+        <div class="container py-24 mx-auto">
+          <h1 class="pt-10 text-5xl text-white font-semibold flex flex-wrap p-6">Blog</h1>
+          <div class="">
+            <div class="py-8 px-7 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-[#FFB742]">CATEGORY</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-white title-font mb-2">The Atom: Full History</h2>
+                <p class="leading-relaxed text-white">Atoms are the smallest particles of a chemical element that can exist, discovered in the fifth century BCE by Leucippus and Democritus. These particles were known as atomos, meaning indivisible, and although atoms were not indivisible after all, the word atom was derived from this word... </p>
+                <a class="text-[#FFB742] inline-flex items-center mt-4 hover:underline" href="TheAtomHistory.html">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="py-8 px-7 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-[#FFB742]">CATEGORY</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-white title-font mb-2">Notable Chemists</h2>
+                <p class="leading-relaxed text-white">Chemistry has evolved over hundreds of years, and during this time there have been incredible breakthroughs by amazing chemists. These chemists have gone back to 500 BCE, and have collaborated to form today’s modern chemistry. Each year, chemists have found another development, some...</p>
+                <a class="text-[#FFB742] inline-flex items-center mt-4 hover:underline" href="NotableChemists.html">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="py-8 px-7 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-[#FFB742]">CATEGORY</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-white title-font mb-2">Lorem ipsum</h2>
+                <p class="leading-relaxed text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+                <a class="text-[#FFB742] inline-flex items-center mt-4">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="max-w-screen-lg mx-auto px-5 items-center">
+            <div class="items-center text-center mb-16 lg:mb-0">
+              <a class="text-[18px] mx-auto text-[#FFB742] inline-flex items-center mt-4 hover:underline" href="alllblog.html">Read More...</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="py-8">
+        <div class="container mx-auto">
+          <div class="w-full mb-4">
+            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full sm:w-1/2 p-6">
+              <div class="flex flex-col items-center">
+                <img class="w-full" src="Images\ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt=""></img>
+              </div>
+            </div>
+            <div class="w-5/6 sm:w-1/2 p-6">
+              <ul class="menu border-none list-reset m-0 w-full md:w-auto mx-auto">
+                <li class="border-none">
+                  <a class="block md:inline-block px-4 py-2 bg-[#414141] transition duration-100 ease-in my-1 text-center md:text-justify rounded-[50px] text-md no-underline text-[#FFB742] font-medium">My Projects</a>
+                </li>
+              </ul>
+
+              <h1 class="pt-10 text-5xl text-white font-semibold">Projects</h1>
+              <p class="text-1xl text-white leading-none mb-6 pt-7 leading-normal">
+                As a lover of hackathons, I have been involved in many projects. If you are interested in challenging me in a hackathon, feel free to contact me via my email or my socials. I am always open to new challenges and opportunities. Here is a list of my favourite projects.
+              </p>
+            </div>
+        </section>
+
+        
+
+      <section id="projects" class="py-8">
+        <section class="text-white">
+          <div class="max-w-screen-xl px-12 py-36 mx-auto sm:px-8 lg:px-12">
+            <div class="max-w-lg mx-auto text-center">
+              <h2 class="text-3xl font-bold sm:text-4xl pb-20">Projects</h2>
+            </div>
+            <div class="flex flex-wrap justify-center items-center content-center" id="tabs-id">
+              <div class="w-full">
+                <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row px-60">
+                  <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg block leading-normal text-orange-600 bg-white" onclick="changeAtiveTab(event,'tab-profile')">
+                      <i class="fas fa-space-shuttle text-base mr-1"></i>  All
+                    </a>
+                  </li>
+                  <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg block leading-normal text-white bg-orange-400" onclick="changeAtiveTab(event,'tab-settings')">
+                      <i class="fas fa-cog text-base mr-1"></i>  Software
+                    </a>
+                  </li>
+                  <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg block leading-normal text-white bg-orange-400" onclick="changeAtiveTab(event,'tab-options')">
+                      <i class="fas fa-briefcase text-base mr-1"></i>  Hardware
+                    </a>
+                  </li>
+                  <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg block leading-normal text-white bg-orange-400" onclick="changeAtiveTab(event,'tab-tab')">
+                      <i class="fas fa-briefcase text-base mr-1"></i>  Papers
+                    </a>
+                  </li>
+
+                </ul>
+                <div class="relative flex flex-col min-w-0 break-words w-full mb-6">
+                  <div class="px-4 py-5 flex-auto">
+                    <div class="tab-content tab-space">
+                      <div class="block text-white" id="tab-profile">
+                        <div class="mx-auto container">
+                          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full">
+                            <a href="https://www.stemblog.org/">
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="Images\stemblogimage.png" alt="STEM Blog"></img>
+                                <div class="p-3 bg-white border-t-[1px] border-gray-400">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">STEM Blog</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">A community and blog about STEM, working with people around the world to solve problems. We write weekly articles on topics such as autonomous cars and chemistry experiments.
+  
+                                  </p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">Science, Tech, Engineering, and Maths</h4>
+                                </div>
+                              </div>
+                            </a>
+                            
+                            <a href="https://thea.education/">
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="Images\theaimage.png" alt="Thea"/></img>
+                                <div class="p-3 bg-white border-t-[1px] border-gray-400">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Thea</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Organize and access your work with Thea. Thea is an easy-to-use software to create notes, keep track of your timetable and access you calendar. We hope to add more features in the future.
+  
+                                  </p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">Making an impact in educational tech.</h4>
+                                </div>
+                              </div>
+                            </a>
+
+                            <a href="https://www.startupcommunity.tech/">
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px] overflow-hidden" src="Images\techstartup.png" alt="Tech Startup Community"/></img>
+                                <div class="p-3 bg-white border-t-[1px] border-gray-400">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Tech Startup Community</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">We are a community of entrepreneurs who share a common goal- to build successful companies. If you would like to find out more, make sure to visit our website and join our discord!
+  
+                                  </p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">Tech & Entrepreneurship
+                                  </h4>
+                                </div>
+                              </div>
+                            </a>
+                          
+                            <a href="https://kitstartit.com/">
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px] overflow-hidden" src="Images\kitstartit.png" alt="KitStartIt"/></img>
+                                <div class="p-3 bg-white border-t-[1px] border-gray-400">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">KitStartIt</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">KitStartIt is a website that provides a bespoke kit for your business. While many people consider starting a company, we hope that this kit will help your company get off the ground.
+
+
+  
+                                  </p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3"> A kit for startups.
+                                  </h4>
+                                </div>
+                              </div>
+                            </a>                        
+                          </div>
+                        </div>  
+                      </div>
+                      <div class="hidden text-black" id="tab-settings">
+                        <div class="mx-auto container">
+                          
+                          <div class="mx-auto container">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full">
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px] overflow-hidden" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                            
+                              
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                            
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="hidden text-black" id="tab-options">
+                        <div class="mx-auto container">
+                          
+                          <div class="mx-auto container">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full">
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                            
+                              
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                            
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="hidden text-black" id="tab-tab">
+                        <div class="mx-auto container">
+                          
+                          <div class="mx-auto container">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full">
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                            
+                              
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                            
+                              <div class="relative overflow-hidden shadow-lg hover:shadow-orange-500 cursor-pointer rounded-tl-[40px] rounded-br-[40px] rounded-bl-lg rounded-tr-lg">
+                                <img class="object-cover w-full h-[200px]" src="https://images.unsplash.com/photo-1502581827181-9cf3c3ee0106?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=420&q=80" alt="Flower and sky"/></img>
+                                <div class="p-3 bg-white">
+                                  <h4 class="mb-3 text-xl font-semibold tracking-tight text-orange-400">Project Title</h4>
+                                  <p class="italic text-sm leading-normal text-gray-900">Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.</p>
+                                </div>
+                                <div class="h-11 bg-gray-200">
+                                  <h4 class="text-sm tracking-tight font-semibold text-black p-3">By ...</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script type="text/javascript">
+              function changeAtiveTab(event,tabID){
+                let element = event.target;
+                while(element.nodeName !== "A"){
+                  element = element.parentNode;
+                }
+                ulElement = element.parentNode.parentNode;
+                aElements = ulElement.querySelectorAll("li > a");
+                tabContents = document.getElementById("tabs-id").querySelectorAll(".tab-content > div");
+                for(let i = 0 ; i < aElements.length; i++){
+                  aElements[i].classList.remove("text-orange-600");
+                  aElements[i].classList.remove("bg-white");
+                  aElements[i].classList.add("text-white"); 
+                  aElements[i].classList.add("bg-orange-400");
+                  tabContents[i].classList.add("hidden");
+                  tabContents[i].classList.remove("block");
+                }
+                element.classList.remove("text-sky-600");
+                element.classList.remove("bg-orange-400");
+                element.classList.add("text-orange-600");
+                element.classList.add("bg-white");
+                document.getElementById(tabID).classList.remove("hidden");
+                document.getElementById(tabID).classList.add("block");
+              }
+            </script>
+          </div>
+        </section>
+      </section>
+        
+    <footer class="p-4 bg-[#1C1C1C] shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+      <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2022 Edward Calzia. All Rights Reserved.</span>
+
+      <ul class="flex flex-wrap items-center mt-3 sm:mt-0">
+        <a href="#nav-bar" class="hover:underline text-gray-400">
+          <button class="inline-flex items-center justify-center w-8 h-8 mr-2 text-pink-100 transition-colors duration-150 bg-[#E28C00] rounded-full focus:shadow-outline hover:bg-[#C37900]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+            </svg>
+          </button>
+        </a>
+      </ul>
+    </footer>
+  </body>
+</html>
