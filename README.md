@@ -10,4 +10,4 @@ Hi! My name is Edward Calzia and I am a student in London interested in Chemistr
   </a>
 </p>
 
-[![Edward's GitHub stats](https://github-readme-stats.vercel.app/api?edwardcalzia=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Edward's GitHub stats](https://github-readme-stats.vercel.app/api?username=edwardcalzia)](https://github.com/edwardcalzia/github-readme-stats)
