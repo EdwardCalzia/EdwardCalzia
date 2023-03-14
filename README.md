@@ -10,6 +10,11 @@ Hi! My name is Edward Calzia and I am a student in London interested in Chemistr
   </a>
 </p>
 
-<a align="center">
+<a align="center" style=".center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}">
   [![Edward's GitHub stats](https://github-readme-stats.vercel.app/api?username=edwardcalzia)](https://github.com/edwardcalzia/github-readme-stats)
 </a>
