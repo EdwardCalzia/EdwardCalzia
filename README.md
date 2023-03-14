@@ -7,7 +7,6 @@ Hi! My name is Edward Calzia and I am a student in London interested in Chemistr
 <p align="center">
 
   <img src="https://skillicons.dev/icons?i=css,html,py,latex,figma,tailwind,flutter" />
-    (https://github-readme-stats.vercel.app/api?username=edwardcalzia)](https://github.com/edwardcalzia/github-readme-stats)
 
 </p>
 
