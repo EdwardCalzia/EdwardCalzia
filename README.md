@@ -10,8 +10,7 @@ Hi! My name is Edward Calzia and I am a student in London interested in Chemistr
   </a>
 </p>
 
-<a align="center" style="
-  margin: auto;
+<div align="center" style="margin: auto;
   width: 50%;
   border: 3px solid green;
   padding: 10px;
