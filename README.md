@@ -5,15 +5,11 @@ Hi! My name is Edward Calzia and I am a student in London interested in Chemistr
 
 ## My Skills
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=css,html,py,latex,figma,tailwind,flutter" />
-  </a>
+
+  <img src="https://skillicons.dev/icons?i=css,html,py,latex,figma,tailwind,flutter" />
+    (https://github-readme-stats.vercel.app/api?username=edwardcalzia)](https://github.com/edwardcalzia/github-readme-stats)
+
 </p>
 
-<span align="center" style="margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-">
   [![Edward's GitHub stats](https://github-readme-stats.vercel.app/api?username=edwardcalzia)](https://github.com/edwardcalzia/github-readme-stats)
-</span>
+
